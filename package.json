@@ -21,7 +21,37 @@
     "react": "^18",
     "react-dom": "^18",
     "react-scripts-ts": "3.1.0",
-    "typescript": "^3"
+    "react-scripts": "5.0.1"
   },
-  "keywords": ["visualization", "d3", "react", "visx", "brush", "interaction"]
+  "devDependencies": {
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "visualization",
+    "d3",
+    "react",
+    "visx",
+    "brush",
+    "interaction"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
